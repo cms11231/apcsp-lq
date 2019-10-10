@@ -38,7 +38,7 @@ def bigger_two(list1, list2)
         print list1
     elsif sum < sum2
         print list2
-    elsif sum == sum2 # I forgot that if they were equal it had to return the first one
+    elsif sum == sum2 # I forgot that if they were equal it had to return the first one so I added an elsif to the loop that looks to see if the sums of the two lists are equal.
         print list1
     end
 end
